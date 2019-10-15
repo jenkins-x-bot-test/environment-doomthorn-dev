@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:doomthorn/adminUser:password
+  username: admin
+dashboardAuthID: vault:doomthorn:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:doomthorn:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:doomthorn/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:doomthorn/prow:hmacToken
